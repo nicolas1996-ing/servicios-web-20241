@@ -133,3 +133,8 @@ const fullNameTwo = `este es el nombre completo: ${firstName} ${lastName}`;
 console.log(fullNameTwo);
 
 console.log(new Date().toLocaleString());
+
+const showAlert = document.querySelector("#showAlert");
+showAlert.addEventListener("click", () => alert("hello ciaf"));
+const dateField = document.querySelector("#date");
+dateField.textContent = new Date().toLocaleString();
