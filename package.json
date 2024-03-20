@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "index:run": "node index.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "operators:aritmeticos": "node temas/02_operators_aritmeticos.js",
+    "operators:logics": "node temas/03_operators_logics.js"
   },
   "keywords": [],
   "author": "nicolas",
