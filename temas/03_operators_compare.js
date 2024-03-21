@@ -27,3 +27,6 @@ console.log(counterOne < 99); // counter = 100 ... false
 
 console.log("menor igual que <= ");
 console.log(counterOne <= 100); // counter = 100 ... true
+
+console.log(10 >= 9);
+console.log(0 === 0);

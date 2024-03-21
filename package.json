@@ -8,8 +8,9 @@
     "index:run": "node index.js",
     "start": "node app.js",
     "operators:aritmeticos": "node temas/02_operators_aritmeticos.js",
-    "operators:logics": "node temas/04_operators_logics.js",
-    "operators:compar": "node temas/03_operators_compare.js"
+    "operators:logics": "node temas/05_operators_logics.js",
+    "operators:compar": "node temas/03_operators_compare.js",
+    "string:methods": "node temas/04_string_methods.js"
   },
   "keywords": [],
   "author": "nicolas",
