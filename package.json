@@ -7,10 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "index:run": "node index.js",
     "start": "node app.js",
+    "intro": "node temas/01_intro_functions.js",
     "operators:aritmeticos": "node temas/02_operators_aritmeticos.js",
     "operators:logics": "node temas/05_operators_logics.js",
     "operators:compar": "node temas/03_operators_compare.js",
-    "string:methods": "node temas/04_string_methods.js"
+    "string:methods": "node temas/04_string_methods.js",
+    "arrays": "node temas/06_arrays.js",
+    "objects": "node temas/07_object.js",
+    "while": "node temas/08_while.js"
   },
   "keywords": [],
   "author": "nicolas",

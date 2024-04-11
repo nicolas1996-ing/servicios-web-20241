@@ -15,7 +15,9 @@ const div = (num1, num2) => console.log(num1 / num2);
         node operations.js -sum 10 20
 */
 
+// eslint-disable-next-line no-undef
 const processEnv = process.argv;
+console.log(processEnv);
 
 /*
     node operations.js -sum 10 20
@@ -28,8 +30,8 @@ const processEnv = process.argv;
         "20"
     ]
 */
-if (processEnv[2] == "-sum") {
-  const num1 = parseInt(processEnv[3]);
-  const num2 = +processEnv[4];
-  sum(num1, num2);
-}
+// if (processEnv[2] == "-sum") {
+//   const num1 = parseInt(processEnv[3]);
+//   const num2 = +processEnv[4];
+//   sum(num1, num2);
+// }

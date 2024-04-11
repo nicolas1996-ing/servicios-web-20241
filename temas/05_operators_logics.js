@@ -22,4 +22,6 @@ if (counter > 100) {
   console.log(`el valor del counter: ${counter} es menor a 100`);
 }
 
+
 counter > 100 ? console.log("counter > 100") : console.log("counter < 100");
+
